@@ -16,6 +16,6 @@ describe("Badge Component", () => {
   test("applies correct class for status", () => {
     render(<Badge type="STATUS" value="SUSPENDED" />);
     const badge = screen.getByText("Suspended");
-    expect(badge).toHaveClass(styles.badge, styles.STATUS);
+    expect(badge).toHaveClass(styles.badge, styles.suspended);
   });
 });

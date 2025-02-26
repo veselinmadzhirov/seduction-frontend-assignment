@@ -1,1 +1,1 @@
-export { default as SubscriptionRow } from "./SubscriptionRow";
+export { default } from "./SubscriptionRow";

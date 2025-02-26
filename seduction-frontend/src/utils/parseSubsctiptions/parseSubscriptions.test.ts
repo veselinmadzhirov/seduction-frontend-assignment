@@ -19,7 +19,7 @@ describe("parseSubscriptions", () => {
 
   test("handles unknown values by falling back to defaults", () => {
     const parsed = parseSubscriptions();
-    expect(parsed[1].status).toBe("ACTIVE"); 
+    expect(parsed[1].status).toBe("ACTIVE");
     expect(parsed[1].sync).toBe("IN_SYNC");
   });
 });
