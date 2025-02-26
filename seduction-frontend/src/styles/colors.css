@@ -1,0 +1,9 @@
+:root {
+  --table-header-color: #64748b;
+  --badge-text-color: #ffffff;
+  --badge-active-color: #6ca621;
+  --badge-suspended-color: #fabb22;
+  --badge-expired-color: #e04e39;
+  --source-text-color: #64748b;
+  --table-row-color: #e2e8f0;
+}

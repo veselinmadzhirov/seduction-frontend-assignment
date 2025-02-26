@@ -1,0 +1,30 @@
+.badge {
+  display: inline-flex;
+  padding: 0.125rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0%;
+  color: var(--badge-text-color);
+}
+
+.badge img {
+  margin-right: 0.1875rem;
+}
+
+.active,
+.in_sync {
+  background-color: var(--badge-active-color);
+}
+
+.suspended,
+.out_of_sync {
+  background-color: var(--badge-suspended-color);
+}
+
+.expired,
+.not_found_s2,
+.not_found_temptation {
+  background-color: var(--badge-expired-color);
+}

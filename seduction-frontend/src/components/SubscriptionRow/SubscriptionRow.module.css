@@ -1,0 +1,7 @@
+.row {
+  border-bottom: 1px solid var(--table-row-color);
+}
+
+.cell {
+  padding: 0.5rem 1rem;
+}
