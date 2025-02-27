@@ -11,6 +11,3 @@ export const BADGE_LABELS = {
     NOT_FOUND_TEMPTATION: "Not found in Temptation",
   },
 };
-
-export type BadgeType = keyof typeof BADGE_LABELS;
-export type BadgeValue<T extends BadgeType> = keyof (typeof BADGE_LABELS)[T];
